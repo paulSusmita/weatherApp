@@ -1,0 +1,110 @@
+.app{
+  height: 100vh;
+  background-image: url(/sfsites/c/resource/weatherAppBackground);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 12px;
+}
+.app-card{
+  background: rgba(255, 255, 255, 0.5);;
+  max-width: 400px;
+  min-width: 350px;
+  border-radius: 8px;
+}
+h1{
+    padding-top: 20px;
+    font-weight: bolder;
+}
+.cursor{
+  cursor: pointer;
+   padding-top: 20px;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header{
+    font-size: 28px;
+    color: #091f43;
+    text-align: center;
+    padding-bottom: 16px;
+    border-bottom: 1px solid black;
+    font-weight: 500;
+}
+section{
+    padding: 24px;
+}
+input {
+    text-align: center;
+    padding: 16px;
+    height: 55px;
+    outline: none;
+    font-size: 24px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  input::placeholder{
+    color:#bfbfbf;
+  }
+  button{
+    width: 100%;
+    background: #883d03;
+    height: 55px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    border-radius: 8px;
+    color: white;
+  }
+.success-msg{
+  color: #155724;
+    background: #d4edda;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 12px;
+}
+.error-msg{
+  color: #721c24;
+  background: #f8d7da;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 12px;
+}
+.text-center{
+    text-align: center;
+}
+.temperature{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 24px;
+}
+.description, .location{
+  font-size: 24px;
+  line-height: 32px;
+  padding-top: 20px;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+.feels_like{
+  width: 100%;
+  padding: 16px;
+}
+.humidity{
+  border-left: 1px solid #ccc;
+  width: 100%;
+  padding: 16px;
+}
+.droplet, .thermo{
+  display: flex;
+  justify-content: center;
+}
+.weatherImg{
+  max-width: 125px;
+}
